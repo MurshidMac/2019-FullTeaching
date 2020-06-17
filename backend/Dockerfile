@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-MAINTAINER daniel097541
+MAINTAINER murshidhassen
 
 ADD ./build/libs/backend-1.0-SNAPSHOT.jar ./full-teaching.jar
 

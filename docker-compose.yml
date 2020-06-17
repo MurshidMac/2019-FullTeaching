@@ -21,7 +21,7 @@ services:
       - openvidu.publicurl=docker
 
   full-teaching:
-    image: full-teaching:1.0
+    image: full-teaching:latest
     links:
       - full-teaching-postgresql
       - full-teaching-openvidu-server-kms
