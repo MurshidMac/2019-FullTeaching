@@ -33,6 +33,7 @@ public class LoginController {
 	public ResponseEntity<User> logIn() {
 		
 		log.info("Logging in ...");
+		log.info("Logging in ..."+ this.userComponent);
 
 		if (!userComponent.isLoggedUser()) {
 			log.info("Not user logged");
